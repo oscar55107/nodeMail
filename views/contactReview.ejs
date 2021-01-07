@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>訂位成功</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/success.css">
+</head>
+<body>
+    <div class="success d-flex flex-column align-items-center justify-content-center">
+        <h2 class="title mb-3">Fireman 美式餐廳</h2>
+        <div class="notice">
+            <p class="text-center noticeTitle mb-5 ">訂位成功 !!</p>
+            <p>訂位須知 :</p><br>
+            <p>*線上訂位提供一般預約，可預約兩個月內場次。</p><br>
+            <p>*假日繁忙，訂位相關服務請平日來電預約。假日當日恕不接受訂位，敬請見諒</p><br>
+            <p>*假日訂位保留15分鐘，晚到請與本店聯絡，視當日訂位狀況保留</p><br>
+            <p>*訂位相關資訊，本餐廳依訂位狀況保有變更之權利</p><br>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.success').style.height  =  window.innerHeight + 'px';
+        window.onresize = function(){
+            document.querySelector('.success').style.height  =  window.innerHeight + 'px'
+        }
+    </script>
+</body>
+</html>
